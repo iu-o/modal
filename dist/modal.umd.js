@@ -1120,12 +1120,12 @@ var promise_default = /*#__PURE__*/__webpack_require__.n(promise);
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
 
-// CONCATENATED MODULE: /Users/l/.config/yarn/global/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b5c12f96-vue-loader-template"}!/Users/l/.config/yarn/global/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/l/.config/yarn/global/node_modules/cache-loader/dist/cjs.js??ref--0-0!/Users/l/.config/yarn/global/node_modules/vue-loader/lib??vue-loader-options!./lib/modal.vue?vue&type=template&id=7600b8c1&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.showModal)?_c('div',[_c('div',{staticClass:"modal-mask",style:({'opacity': _vm.opacity, 'z-index': _vm.zIndex}),on:{"touchstart":_vm.handleStart,"touchmove":_vm.handleMove,"touchend":_vm.handleEnd}}),_c('div',{staticClass:"modal-wrap",style:({'z-index': _vm.zIndex + 1})},[_c('div',{staticClass:"modal"},[_c('div',{staticClass:"modal-head"},[_vm._t("modal-head",[_vm._v(_vm._s(_vm.title))])],2),_c('div',{staticClass:"modal-content",class:[_vm.contentClass]},[_vm._t("default",[_c('div',{domProps:{"innerHTML":_vm._s(_vm.message)}})])],2),_c('span',{staticClass:"modal-close",on:{"click":_vm.modalClose}},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 12 12","id":"svg-modal-close","width":"100%","height":"100%"}},[_c('path',{attrs:{"d":"M7.414 6l4.243 4.243a1 1 0 0 1-1.414 1.414L6 7.414l-4.243 4.243a1 1 0 0 1-1.414-1.414L4.586 6 .343 1.757A1 1 0 1 1 1.757.343L6 4.586 10.243.343a1 1 0 1 1 1.414 1.414L7.414 6z","fill":"#333","fill-rule":"nonzero"}})])]),(_vm.modalType === 'confirm')?_c('div',{staticClass:"modal-foot"},[_vm._t("modal-foot",[_c('div',{staticClass:"btn-cancel",on:{"click":_vm.cancel}},[_vm._v(_vm._s(_vm.cancelText))]),_c('div',{staticClass:"btn-confirm",on:{"click":_vm.confirm}},[_vm._v(_vm._s(_vm.confirmText))])])],2):_vm._e(),(_vm.modalType === 'alert')?_c('div',{staticClass:"modal-foot"},[_vm._t("modal-foot",[_c('div',{staticClass:"btn-alert",on:{"click":_vm.confirm}},[_vm._v(_vm._s(_vm.btnText))])])],2):_vm._e()])])]):_vm._e()}
+// CONCATENATED MODULE: /Users/l/.config/yarn/global/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"b5c12f96-vue-loader-template"}!/Users/l/.config/yarn/global/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/l/.config/yarn/global/node_modules/cache-loader/dist/cjs.js??ref--0-0!/Users/l/.config/yarn/global/node_modules/vue-loader/lib??vue-loader-options!./lib/modal.vue?vue&type=template&id=494b1302&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.showModal)?_c('div',[(_vm.showMask)?_c('div',{staticClass:"modal-mask",style:({'opacity': _vm.opacity, 'z-index': _vm.zIndex}),on:{"touchstart":_vm.handleStart,"touchmove":_vm.handleMove,"touchend":_vm.handleEnd}}):_vm._e(),_c('div',{staticClass:"modal-wrap",style:({'z-index': _vm.zIndex + 1})},[_c('div',{staticClass:"modal"},[_c('div',{staticClass:"modal-head"},[_vm._t("modal-head",[_vm._v(_vm._s(_vm.title))])],2),_c('div',{staticClass:"modal-content",class:[_vm.contentClass]},[_vm._t("default",[_c('div',{domProps:{"innerHTML":_vm._s(_vm.message)}})])],2),_c('span',{staticClass:"modal-close",on:{"click":_vm.modalClose}},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 12 12","id":"svg-modal-close","width":"100%","height":"100%"}},[_c('path',{attrs:{"d":"M7.414 6l4.243 4.243a1 1 0 0 1-1.414 1.414L6 7.414l-4.243 4.243a1 1 0 0 1-1.414-1.414L4.586 6 .343 1.757A1 1 0 1 1 1.757.343L6 4.586 10.243.343a1 1 0 1 1 1.414 1.414L7.414 6z","fill":"#333","fill-rule":"nonzero"}})])]),(_vm.modalType === 'confirm')?_c('div',{staticClass:"modal-foot"},[_vm._t("modal-foot",[_c('div',{staticClass:"btn-cancel",on:{"click":_vm.cancel}},[_vm._v(_vm._s(_vm.cancelText))]),_c('div',{staticClass:"btn-confirm",on:{"click":_vm.confirm}},[_vm._v(_vm._s(_vm.confirmText))])])],2):_vm._e(),(_vm.modalType === 'alert')?_c('div',{staticClass:"modal-foot"},[_vm._t("modal-foot",[_c('div',{staticClass:"btn-alert",on:{"click":_vm.confirm}},[_vm._v(_vm._s(_vm.btnText))])])],2):_vm._e()])])]):_vm._e()}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./lib/modal.vue?vue&type=template&id=7600b8c1&
+// CONCATENATED MODULE: ./lib/modal.vue?vue&type=template&id=494b1302&
 
 // EXTERNAL MODULE: /Users/l/.config/yarn/global/node_modules/core-js/modules/es6.number.constructor.js
 var es6_number_constructor = __webpack_require__("b43e");
@@ -1199,6 +1199,10 @@ var es6_number_constructor = __webpack_require__("b43e");
       default: function _default() {}
     },
     preventScroll: {
+      type: Boolean,
+      default: true
+    },
+    showMask: {
       type: Boolean,
       default: true
     },

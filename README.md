@@ -71,3 +71,4 @@ params
 | modalType | alert/confirm |
 | opacity | mask opacity |
 | zIndex | modal mask z-index && modal z-index |
+| showMask | modal mask show/hide |

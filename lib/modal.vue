@@ -1,6 +1,6 @@
 <template>
   <div v-if="showModal">
-    <div class="modal-mask" @touchstart="handleStart" @touchmove="handleMove" @touchend="handleEnd" :style="{'opacity': opacity, 'z-index': zIndex}"></div>
+    <div class="modal-mask" @touchstart="handleStart" @touchmove="handleMove" @touchend="handleEnd" :style="{'opacity': opacity, 'z-index': zIndex}" v-if="showMask"></div>
     <div class="modal-wrap" :style="{'z-index': zIndex + 1}">
       <div class="modal">
         <div class="modal-head">
@@ -66,6 +66,10 @@ export default {
       default: () => {}
     },
     preventScroll: {
+      type: Boolean,
+      default: true
+    },
+    showMask: {
       type: Boolean,
       default: true
     },
