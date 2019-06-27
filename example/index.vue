@@ -2,7 +2,8 @@
   <div class="demo">
     <div class="btn" @click="testAlert">alert</div>
     <div class="btn" @click="testConfirm">confirm</div>
-    <div class="btn" @click="showModal = true">custom</div>
+    <div class="btn" @click="testCustom">custom</div>
+    <div class="btn" @click="showModal = true">component</div>
     <br>
     <br>
     <br>
@@ -14,9 +15,6 @@
 </template>
 
 <script>
-import Vue from 'vue'
-import modalExample from '../lib'
-Vue.use(modalExample)
 export default {
   name: 'modal-demo',
   data () {
@@ -25,6 +23,19 @@ export default {
     }
   },
   methods: {
+    testCustom () {
+      this.$modal({
+        title: 'Lorem',
+        message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        preventScroll: true,
+        clickMask: true,
+        opacity: 0.1,
+        zIndex: 100,
+        modalType: 'custom'
+      }).then(res => {
+        console.log('res', res)
+      })
+    },
     testAlert () {
       this.$alert({
         title: 'Lorem',
