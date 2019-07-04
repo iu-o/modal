@@ -11,7 +11,7 @@
             <div v-html="message"></div>
           </slot>
         </div>
-        <span class="modal-close" @click="modalClose">
+        <span class="modal-close" v-if="showClose" @click="modalClose">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" id="svg-modal-close" width="100%" height="100%"><path d="M7.414 6l4.243 4.243a1 1 0 0 1-1.414 1.414L6 7.414l-4.243 4.243a1 1 0 0 1-1.414-1.414L4.586 6 .343 1.757A1 1 0 1 1 1.757.343L6 4.586 10.243.343a1 1 0 1 1 1.414 1.414L7.414 6z" fill="#333" fill-rule="nonzero"></path></svg>
         </span>
         <div class="modal-foot" v-if="modalType === 'confirm'">
@@ -36,6 +36,10 @@ export default {
     showModal: {
       type: Boolean,
       default: false
+    },
+    showClose: {
+      type: Boolean,
+      default: true
     },
     title: {
       type: String,

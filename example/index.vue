@@ -29,8 +29,9 @@ export default {
         message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         preventScroll: true,
         clickMask: true,
-        opacity: 0.1,
+        opacity: 0.9,
         zIndex: 100,
+        showClose: false,
         modalType: 'custom'
       }).then(res => {
         console.log('res', res)
